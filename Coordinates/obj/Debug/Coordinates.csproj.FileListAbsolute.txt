@@ -1,0 +1,7 @@
+C:\StdProjects\Coordinates\bin\Debug\Coordinates.exe.config
+C:\StdProjects\Coordinates\bin\Debug\Coordinates.exe
+C:\StdProjects\Coordinates\bin\Debug\Coordinates.pdb
+C:\StdProjects\Coordinates\obj\Debug\Coordinates.csprojAssemblyReference.cache
+C:\StdProjects\Coordinates\obj\Debug\Coordinates.csproj.CoreCompileInputs.cache
+C:\StdProjects\Coordinates\obj\Debug\Coordinates.exe
+C:\StdProjects\Coordinates\obj\Debug\Coordinates.pdb
