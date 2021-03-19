@@ -16,25 +16,27 @@ namespace Coordinates
             {
                 Console.WriteLine("Введите координату (С / Ю / З / В): ");
                 char way = char.Parse(Console.ReadLine());
-                if (way == 'С' || way == 'с')
+                switch (way)
                 {
-                    y = y + 1;
-                }
-                else if (way == 'Ю' || way == 'ю')
-                {
-                    y = y - 1;
-                }
-                else if (way == 'З' || way == 'з')
-                {
-                    x = x - 1;
-                }
-                else if (way == 'В' || way == 'в')
-                {
-                    x = x + 1;
+                    case 'С':
+                    case 'с':
+                        y++;
+                        break;
+                    case 'Ю':
+                    case 'ю':
+                        y--;
+                        break;
+                    case 'З':
+                    case 'з':
+                        x--;
+                        break;
+                    case 'В':
+                    case 'в':
+                        x++;
+                        break;
                 }
             }
-            x = Math.Abs(x);
-            y = Math.Abs(y);
+            
             distance = Math.Sqrt(x * x + y * y);
             Console.WriteLine("Расстояние от начала координат до точки составляет " + distance + " метров.");
             Console.ReadKey();
