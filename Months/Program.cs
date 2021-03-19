@@ -12,7 +12,7 @@ namespace Months
                 int monthNum = 0;
                 Console.WriteLine("Введите порядковый номер месяца: ");
                 monthNum = int.Parse(Console.ReadLine());
-                monthNum = monthNum - 1;
+                monthNum--;
                 Console.WriteLine(months[monthNum]);
             } while (true);
         }
